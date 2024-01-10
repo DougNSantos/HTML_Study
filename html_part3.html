@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>PART 3</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    A identação dos documentos html, se codificados da forma correta, não vai afetar o funcionamento da página se não estiver "paragrafado"<br>
+    mas é de extrema importância identar para a leitura e entendimento do código pelos desenvolvedores, normalmente de acordo com Pais e Filhos no documento.<br>
+    <p>
+        Então, o HTML é um sistema inteligente para incluir informação sobre o conteúdo em um documento de texto: Ele serve para descrever o significado do conteúdo, isso é chamado de marcação, ou semântica.<br>
+        <article>Então as suas marcações (TAGS ou Etiquetas), vão dizer o que cada coisa dentro de um documento de texto</article> deve ser, ex: parágrafo, lista, ....<br>
+        O HTML não define COMO o conteúdo vai aprecer no navegador, este é o papel do CSS. O HTML INDICA O QUÊ CADA COISA É! <br>
+        Então, por que alguns elementos acabam aparecendo diferentes de outros usando apenas HTML sem Css? (ex: quando usamos algumas tags como o "p", ou "b'", parágrafo e bold) Isso porque o proprio navegador possui um<br>
+        arquivo CSS embutido que indica como cada elemnto do HTML deve ser exibido(pode mudar sutilmente de navegador para navegador), mas<br>
+        essas configurações padrões mudam se nós codificarmos uma CSS que SOBREPONHA esses estilos pré-definidos pelo navegador quando ele "lê" o HTML. 
+        <br>
+        Não é difícil sobreescrever as regras de estilo padrão dos navegadores para a página com nossas próprias Folhas de Estilo (CSS)
+        A seguir vou fazer um teste com algumas tags comuns - ><br>
+        <h1>Títulos vão do H1 ao H6 (head) e podem ter suas próprias linhas assim como Parágrafos, P </h1>
+        <p>Exemplo de um mini parágrafo!</p>
+        <article> A tag "em" (stress emphasis , ênfase) deixa em <em>ITÁLICO</em>, e a tag "b" ( bold) deixa o texto em <b>NEGRITO</b>, a tag "a", é bastante usada para representar uma<br>
+        ÂNCORA, para definirmos LINKS e outras definições para aquele trecho de conteúdo entre a tag.<br>
+        A tag "br" (break), faz uma quebra-de-linha e pula para outra linha o conteúdo após a tag<br>
+        A tag "article", faz uma parágrafo novo a partit da tag e acaba com uma quebra-de-linha simples ao fechar a tag<br>
+    </article>
+    </p>
+    <h3>
+        Podemos perceber que há difentes categorias de tags, Tags que são exibidos em suas próprias linhas como "article,h1,p", são exibidos em seus próprios blocos<br>
+        e há as Tags que são exibidos nas mesmas linhas de declaração, com seu conteúdo dentro como "a,em,b".<br>
+        Isto deve-de por uma função por padrão das folhas de estilo do navegador, não dos elementos HTML. <br>
+        <h2>Antes dos HTML 5, as tags eram categorizadas como <em>NÍVEL DE BLOCO</em>(APARECIAM EM SUAS PRÓPRIAS LINHAS) e <em>INLINE</em> (APARECIAM DENTRO DE UMA LINHA DE TEXTO QUE ERAM DECLARADAS AS TAGS)</h2>
+        O HTML 5 não usa esses termos, pois ele associa os elementos com a apresentação que você aprendeu que não é o papel do HTML<br>
+        Ou seja, os elementos que eram <em>INLINE</em>, agora são <em><b>PHRASING CONTENT</b></em> e os elementos de bloco em HTML 5  são focados na SEMÂNTICA<br>
+        No fim os navegadores ainda lêem os conteúdos da mesma forma, suas regras são as mesmas.<br>
+        <h2>Ou seja: títulos, parágrafos e elementos estruturais como "article", geralmente são exibidos em linhas próprias e <br>
+        o phrasing content, aparece na mesma linha que o conteúdo ao redor!!! As funções dos termos antigos ainda são praticamente as mesmas, mas no fim<br>
+        o HTML 5 acaba não usando muito estes termos antigos, mas eles ajudam a entender como vão funcionar.</h2>
+    </h3>
+    O detalhe de conseguirmos tanto criar uma folha de estilo CSS externa ou no mesmo documento HTML, é que ambas são apenas DOCUMENTOS DE TEXTO!!!<br>
+    USEI UM PEQUENO EXEMPLO DE CSS3 NA TAG "HEAD" E ELE JÁ FOI IMLEMENTADO PELO NAVEGADOR SUBSTITUINDO A COR DE FUNDO PELO AZUL FRAQUINHO!
+</body>
+</html>
