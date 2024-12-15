@@ -1,0 +1,6 @@
+div {
+  background-color: crimson; /*por padrão a largura (width) do box é definido com AUTO (quer dizer, pegue a largura total do elemento pai) , por isso a div pega toda a largura do navegador! */
+  width: 150px; /*agora mudamos*/
+  height: 80px;
+  padding: 20px;
+}

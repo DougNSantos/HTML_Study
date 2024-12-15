@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.div_item {
+  border: #e7e7e7 solid 1px;
+  padding: 10px 10px;
+  background: #ddd;
+  /*usando o display: grid e o gap, não precisamos usar o margin da div aqui, pois o gap ja define a margem dos elementos*/
+  border-radius: 4px;
+  display: grid; /*assim como podemos ter div dentro de div dentro de div, podemos ter grid dentro de grid... */
+  /*em display grid, os elementos não colidem mais, ele não é mais block nem inline-block, mas sim tem comportamentos de grid! */
+}
+h2 {
+  margin: 0px;
+}
+
+.comprar {
+  background: seagreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 400px 400px; /*fr = é uma unidade fracionária */
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}

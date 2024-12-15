@@ -1,0 +1,12 @@
+h1 {
+  background: violet; /*há varias abreviações, o background é a abreviação de background-color!!!*/
+  color: #3c181872; /*valor em hexadecimal e com alpha( os dois ultimos numeros, pois definimos a trasparencia dessa cor) */
+}
+body {
+  color: rgb(
+    150,
+    255,
+    2,
+    0.5
+  ); /*usando notação RGB e adicionando a propriedade mencionada acima: Alpha(transparencia da cor), ficnado assim uma notação RGBA*/
+}

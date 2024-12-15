@@ -1,0 +1,25 @@
+div {
+  /*lembrar que algumas configurações somam seus valores, como borda + padding ... */
+  background: #aaa;
+  width: 140px;
+  height: 80px;
+  padding: 20px; /*a tipografia da fonte conta um pouco do tamanho*/
+  border: 10px solid red;
+  /*margin: 10px;*/
+}
+
+body {
+  /*OBS: SE NÃO ESPECIFICADO, O BODY JÁ VEM PRÉ-DEFINIDO - margin: auto; - COM UM VALOR DE MARGEM, NORMALMENTE VAMOS DEFINIR MARGEM 0PX PARA ELE ENTÃO!!! */
+  margin: 0px;
+}
+
+h1 {
+  /*em css, as margens colidem!, se tiver duas margens colidindo, a que tiver maior tamanho vai ser a que será usada! elas não vão se somar */
+  margin: 0px;
+  background: #aaa;
+  border: 5px solid blue;
+  /* width: 50px; - o css vai tentar deixar o conteúdo dentro e mostrar todo ele, podendo distorcer o height ou o weigth */
+  height: 2px;
+  padding: 50px;
+  margin: 10px;
+}

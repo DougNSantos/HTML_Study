@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding: 35px;
+}
+
+h2 {
+  margin: 0px; /*há os elementos com pré-definição, então ele acaba somando as margens e acaba ficando cantos maiores, por isso eliminamos a margem desse h2*/
+}
+
+div {
+  border-radius: 4px;
+  background: #111; /*o backgrou muda a cor de fundo do elemento, já a color muda a cor do conteúdo daquele elemento */
+  color: white;
+  padding: 20px;
+  margin: 20px; /*a propriedade margin vai definir a distãncia entre esses elementos! */
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  display: inline-block; /*se não usásemos o inline-block, ele não respeitaria o bloco dos outros elementos e transbordaria seu estilo para cima dos outros confrme fossemos estilizando */
+  background: #febe01;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a {
+  color: #332200;
+}
+
+.amarelo1 {
+  color: #febe01;
+}
+
+p {
+  color: #b2b2b2;
+}

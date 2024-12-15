@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head> <!-- usados bastante tags para METADADOS, por isso usamos eles aqui -->
+  <meta charset="UTF-8">
+  <title>INDEX</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="codigo"> <!--PODEMOS ADICONAR ATRIBUTOS NAS TAGS PRINCIPAIS TAMBÉM, POR EXEMPLO ESSE ATRIBUTO CLASS NO BODY!!!-->
+  <h1 id="inicio">Personagens clássicos do rpg de mesa!</h1> <!-- PODEMOS USAR UM INDENTIFICADOR NAS TAGS, ISSO É UM ATRIBUTO ÚNICO PARA A TAG E PODEMOS USAR PARA SELECIONARMOS UNICAMENTE AQUELA TAG-->
+
+  <!-- UMA DAS FORMAS DE USAR CAMINHOS RELATIVOS, VOU TENTAR ADOTAR O MÉTODO DE BAIXO: -->
+  <!-- <a href="/study2/personagens/cavaleiro.html">Cavaleiro</a> caminho relativo= o arquivo cavaleiro.html que está na pasta personagens que está na pasta study2 que está na pasta raiz Origamid2024
+  <br> break= quebra de linha
+  <a href="/study2/personagens/mago.html">Mago</a> -->
+
+  <!-- aqui usando ./ no caminho relativo, estou dizendo= o arquivo é o cavaleiro.html, procure dentro da pasta atual que está este index.html outra pasta chamada personagens, dentro dela será o arquivo cavaleiro.html -->
+  <!-- vou dar um exemplo= usando a extensão LiveServer do Vscode, a raiz de nosso projeto será o próprio protocolo http que o liveserver cria. Agora usando apenas nosso PC sem LiveServer, o diretório raiz será a do HD de nosso computador, ex= users/workbench/doug/dev/Origamid2024/study2......, Quando usarmos servidores, normalmente não será desse jeito. -->
+  <a class="link" href="./personagens/cavaleiro.html">Cavaleiro</a>
+  <br>
+  <a class="link mago inteligente" href="./personagens/mago.html">Mago</a> <!--PODEMOS TER MAIS ATRIBUTOS DE CLASS NO MESMO ELEMEMTO, EX: link mago inteligente, SÃO 3 CLASSES DIFERENTES, podemos selecionar as classes no CSS, uma por uma se quiser-->
+  <p> Veja mais <a href="/">personagens</a> </p>
+  <h2 class="info">Dragoon</h2>
+  <h3 class="info">Summoner</h3>
+
+</body>
+
+</html>
+
+<!-- PARA USAR UM ID EM CSS DEVEMOS INICIAR # COM O NOME DO ID APÓS, EX: #INICIO { }-->
+<!-- podemos usar CLASS como atributo de uma tag, assim ela pode ser selecionada usando sua classe e todos que tem a mesma classe, poderão ser esditados usando CSS, ela delimita uma classe para as tags selecionadas com ela-->
+<!-- OBS: POSSO MUDAR ESTRUTURAS DO HTML E TAGS MAS MANTER OS ATRIBUTOS, ASSIM CONSEGUIMOS MANTER O SITE COM CSS SELECIONANDO MUITO MASI AS CLASSES E ID PARA ESTILOS E JAVASCRIPT!!! -->
+
+<!-- O ATRIBUTO ID É ÚNICO, NAÕ DEVEMOS REPLICAR O MESMO NO MESMO CÓDIGO, MAS CLASS PODE -->
+<!--PARA USAR CLASS NO CSS DEVEMOS INICIAR COM: .link {} , por exemplo-->

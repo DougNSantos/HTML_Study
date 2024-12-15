@@ -1,0 +1,14 @@
+body {
+  /*o body está sendo um escopo pai para todos os que estão dentro dele */
+  color: seagreen;
+}
+h1,
+button {
+  color: inherit;
+  /*aqui, o button e o h1 ja tem valores pré-definidos para suas cores, então não vai herdar de body que é seu pai*/
+  /*mas podemos mudar manualmente para a mesma cor, ou podemos declarar a cor como herdada de seu pai, para isso usamos o valor: INHERIT */
+}
+a {
+  /*mesma coisa para o elemento a: inherit, ou a cor que queremos */
+  color: seagreen;
+}

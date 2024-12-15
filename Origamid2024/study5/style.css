@@ -1,0 +1,14 @@
+img {
+  max-width: 100%; /*o max-width garante que a imagem não extoure para além do elemento pai que segura ela! */
+  display: block;
+  /*usando a propriedade de max-width=definimos de acordo com o elemento pai e o TAMANHO MÁXIMO DA IMAGEM. ela não vai aumentar além disso*/
+  /*usando width=definimos fixamente que a imagem pode aumentar sempre JUNTAMENTE COM O ELEMENTO PAI, não importando a resolução*/
+}
+
+div {
+  width: 200px;
+}
+
+.width {
+  width: 100%;
+}

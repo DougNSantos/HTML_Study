@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-br"> <!--INTERESSANTE QUE SE A LINGUA ESTIVER DIFERENTE DA ESCRITA, O NAVEGADOR VAI FICAR PEDINDO SE QUEREMOS TRADUZIR A PÁGINA!!! -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style_display.css">
+  <title>Display</title>
+</head>
+
+<body>
+  <p>Fluxo do Display</p> <!--p também é um elemento de bloco-->
+  Há os elementos de BLOCO(block) e os elementos de LINHA(inline), como podemos ver, os elementos de linha são mostrados(display) da esquerda para direita, como se lê<br>
+  <strong>ESTE É UM TEXTO EM NEGRITO USANDO A TAG strong -- a tag strong dá enfase no texto e pré-define um negrito, mas podemos fazer de várias formas isso</strong> e os elementos de bloco, criam um bloco imaginario para comportar seu conteúdo, por isso eles automaticamente quebram a linha e tudo mais...<br>
+  abaixo escrevi elementos de linha, por isso são mostrados lado a lado: <br><br>
+  texto puro
+  <span>Novo texto span</span> <!--a tag SPAN é um elemento de linha sem pré-definição, como se fosse uma DIV, mas a div já é um elemento de bloco!-->
+  <a href="/">Link teste</a>
+  veja como a conteúdo fica um do lado do outro, pois estou usando varias tags de linha!
+  agora o H1 já é um elemento de bloco, ele se separa dos outros, veja:
+  <h1>elemento de bloco h1 - <span>ele ocupa 100% da largura e não deixa nenhum elemento entrar do lado,</span> mesmo se configurarmos ele com menos largura, ele não deixa elementos ao lado por pré-definição</h1> <!--usamos um elemento inline dentro do elemento de block, então ele segue o fluxo dentro do elemento em bloco!-->
+  <span>Novo texto span</span>
+  <a href="/">Link teste</a>
+  <a href="/">Link teste</a>
+  <p>Os elementos INLINE não respeitam
+  <div>as definições de WIDTH, HEIGHT, MARGIN,</div> eles não vão acontecer nada, ele tem o seu estilo padrão</p> <!--usando elementos de block dentro de elementos de block: vão quebrar as linhas, os dois elementos!-->
+
+
+</body>
+
+</html>

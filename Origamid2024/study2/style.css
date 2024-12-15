@@ -1,0 +1,55 @@
+a {
+  color: red;
+  text-decoration: none;
+}
+/* a propriedade de Cascata do CSS também podemos ver assim: */
+/* podemos sobreescrever valores para os elementos selecionados, O ESTILO VAI SER APLICADO NORMALMENTE USANDO O QUE VIER DEPOIS DOS OUTROS, DOS PRIMEIROS, COMO DE FOSSSE UMA CASCATA! e aplicando propriedades adicionais se usadas*/
+
+/* ISSO TAMBÉM SE APLICA A NOVOS ARQUIVOS CSS APLICADOS AOS SITES!!! */
+
+p a {
+  /*SELETORES CSS, usando seletores sem virgula, é como dizer assimn: pegue todo "a" que tenha dentro de "p" e aplique o estilo */
+  font-size: 32px;
+  color: blue; /*esse aqui está sendo usado ao invez da cor red lá em cima! */
+}
+
+h1, /*usando a virgula, estamos pegando todos os elementos indicados junto com a virgula, NO SELETOR SEM VÍRGULA, APLICAMOS SOMENTE NO ELEMENTO A DIREITA QUE CONTENHA DENTRO DE OUTRO ELEMENTO E ASSIM SUCETIVAMENTE! */
+h2,
+h3 {
+  font-size: 32px;
+  color: purple;
+}
+
+p {
+  font-size: 30px;
+}
+
+a {
+  font-size: 30px;
+}
+
+#inicio {
+  /* USO DE ID */
+  color: violet;
+}
+
+.link, /*USO DE CLASS */
+.info {
+  /* podemos usar as mesmas regras de seletores para os seletores id e de class!!! */
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+  color: aqua;
+}
+
+.codigo {
+  font-size: 34px;
+  color: gold;
+}
+
+.mago {
+  color: blueviolet;
+}
+
+.inteligente {
+  color: red;
+}

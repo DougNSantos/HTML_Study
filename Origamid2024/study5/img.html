@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<!--UMA IMAGEM COM 1000x500 POR EXEMPLO, TERIA QUE TER UM DISPLAY MAIOR QUE 1000 pixels PARA PODER COMEÇAR A PERDER A RESOLUÇÃO ORIGINAL!-->
+
+<body>
+  <style>
+    img {
+      /*percebemos a difereça de resolução entre imagens .svg e .png! */
+      width: 750px;
+      display: block;
+      /*inline-block mantém ele na linha, o block cria um contêiner para o elemento, por isso ele quebra a linha */
+    }
+  </style>
+  <div><!--há os arquivos de imagens com extensão .SVG = Isso que dizer que ele não é uma arquivo fixo de imagem, mas sim um arquivo de CÓDIGO com COORDENADAS que são processadas no navegador por exemplo. Elas são muito boas pois como elas são processadas na hora, ela não perde resolução se aumentarnos e podemos editá-las, mudando cores por exemplo. elas normalmente tem o fundo trasparente o que é muito bom para sites. Essas imagens com .SVG são feitas usando softwares de denho vetorial!-->
+    <img src="./img/bikcraft.svg" alt="imagen .svg"> <!--chamados imagens versão vetorisada-->
+    <!--normalmente tentaremos usar imagens com .svg por suas boas propriedades, mas iagens com muitas cores, tipo uma floresta, é masi custoso fazer com .svg, então podemos usar uma imagem .png (NORMALMENTE USAREMOS ARQUIVOS PNG OU MELHOR AINDA .SVG, NÃO .JPG - pois jpg possui tamanho maior de arquivo, o que resulta em carregamento masi lento do site!)-->
+    <!--BUSCAREMOS USAR ARQUIVOS DE IAGME COM MENOS DE 1Mb DE TAMANHO PARA OTIMIZAR O SITE, ISSO FAZ DIFERENÇA!-->
+    <img src="./img/bikcraft.png" alt="imagen .png"> <!--aqui usamos uma imagem .png para mostrar a diferença de .png e .svg-->
+  </div>
+</body>
+
+</html>
