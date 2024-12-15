@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESTUDO 2</title>
+  <link rel="stylesheet" href="../estilo/style.css" />
+</head>
+
+<body style="background: #f3eae8; color: #6d5aaa; border: solid 4px #cfc5f5; border-radius: 10px; padding: 15px; text-align: center; font-family: arial;">
+
+  <h1>ESTUDO 2:</h1>
+
+  <a href="../index.html" rel="prev" title="Voltar para o menu">VOLTAR</a>
+  <br><br>
+
+  <a href="https://pt.wikipedia.org/wiki/HTML" rel="external" title="Aprenda mais HTML">LINK PARA HTML</a>
+  <br><br>
+  <u>O uso do atributo rel= em um link indica que tipo de link é, externo por exemplo, e o uso do atributo title= nos mostra um texto quando passamos o cursor por cima dele<br>
+    há várias formas de usar ele, mas é bastante usado em links e suas tags, exemplos: <br>
+    stylesheet: Indica que o recurso vinculado é uma folha de estilo CSS.<br>
+    nofollow: Informa aos motores de busca que não devem seguir o link. Isso é frequentemente usado em links que não devem passar "link juice" (autoridade) para o site vinculado.<br>
+    noopener: Usado em links que abrem em uma nova aba (target="_blank"). Melhora a segurança, evitando que a nova página tenha acesso à página de origem.<br>
+    noreferrer: Similar ao noopener, mas também evita que a nova página receba informações sobre a página de origem.<br>
+    prev: Indica que o link leva à página anterior em uma série de páginas.<br>
+    next: Indica que o link leva à próxima página em uma série de páginas.<br>
+    alternate: Usado para especificar uma versão alternativa do documento, como uma versão em outro idioma.<br>
+    icon: Indica que o recurso vinculado é um ícone para o site (como um favicon).<br>
+    help: Indica que o link leva a uma página de ajuda.<br>
+    license: Indica que o link leva a informações sobre a licença do conteúdo.<br>
+    dns-prefetch: Sugere que o navegador deve resolver o nome de domínio do recurso vinculado antes de ele ser realmente necessário.<br>
+    O atributo rel é muito útil para definir a relação entre diferentes documentos e melhorar a navegação e a segurança. A escolha do valor adequado depende do contexto em que você está usando o link.</u><br>
+
+  <p>HTML: semântica do conteúdo<br>
+    CSS: estilo do conteúdo<br>
+    Javascript: Lógica de programação na página
+  </p>
+  <p>No HTML 5, a separação de funções está mais definida, pois a função de estilo é especifica de CSS e HTML é apenas semântica. O que torna a renderização das TAGs em elementos inline ou inblock são as folhas de estilo padrões do proprio navegador, o que podemos mudar com CSS. Elementos de nivel de linha agora são entendidos como <em>Phrasing Content</em> <!--/em quer dizer Ênfase--> em HTML 5</p>
+  <p>Em CSS: nivel de bloco= conteúdos que são renderizados em suas próprias linhas, com quebra de linha para aquela TAG<br>
+    nivel de linha= conteúdos que são renderizados junto com a linha de texto, sem ter quebra de linha por exemplo.</p>
+  <p>esses termos foram usados para o HTML antes do HTML 5, pois anteriormente estilos também eram mais usados com o prório HTML, mas atualmente no HTML 5 a estilização é de responsabilidade do CSS e semântica apenas do HTML!</p>
+  <p>No HTML 5: nivel de linha = Phrasing Content<br>
+    nive de bloco = Podemos clasificá-los como elementos estruturais, mas são essencialmente o mesmo que inblock, apenas devemos entender que HTML tem o objetivo de semântica e não de estilo, e esses elementos são usados principalmente no CSS!</p>
+  <p><em>Apesar do HTML 5 não utilizar inline e inblock, eles ainda servem para entendermos os comportamentos padrão dos elementos em HTML</em></p>
+  <p>indiferente do padrão de apresentação dos elementos, é buscado o que melhor descreve o significado de seus conteúdos, sem levar em conta a apresentação.</p>
+  <h3>A tag article e a tag div: article tem a semântica de um conteúdo que pode ser lido e distribuido de forma independente, já a tag div é um conteiner genérico para conteúdos sem semântica especifica.<em> as tags também ajudam os navegadores e motores de busca por exemplo, a exibirem de forma melhor os conteúdos e até na acessibilidade a usuários, por exemplo: com a tag article, por possuia a semântica de um conteúdo independente de outros, podem ser interpretados sozinhos, os motores de busca podem filtrar melhor os conteúdos, já se for div, não tem semântica e nõa será bem processada o conteúdo daquela página em uma busca por exemplo!</em> <br>
+    por isso o HTML é mais focado na semântica e o CSS é na estilização!</h3>
+  <p>
+    Outro exemplo: a tag /em é enfase em algo do texto e é um phrasing content, por padrão ele é renderizado em itálico, mas não precisa. O que importa é a semântica que diz que enfaiza algo do texto e podemos modificar com o CSS depois.<br>
+    a tag /p quer dizer parágrafo e pode ter uma ou inúmeras sentenças nela, assim como em um texto impresso!
+  </p>
+
+  <p>Toda página HTML deve ter título, usamos H1 - H6 (ajuda motores de busca também)</p>
+
+  <p><small>&copy; Exemplo do uso da tag small e caracteres especiais, como se fosse um small print. Com o CSS podemos deixar o small como o maior tamanho da página, o que nos mostra que o que importa no HTML é a semântica e estilo será CSS!</small></p>
+
+  <a href="./sobreHtml.html" rel="next" title="Mais sobre HTML">MAIS SOBRE HTML NESTE LINK</a>
+</body>
+
+</html>

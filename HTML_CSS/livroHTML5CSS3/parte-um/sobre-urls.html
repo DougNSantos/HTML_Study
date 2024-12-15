@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-brS">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=S, initial-scale=1.0">
+  <title>Sobre URLs</title>
+  <link rel="stylesheet" href="../estilo/style.css" />
+</head>
+
+<body style="background: #f3eae8; color: #6d5aaa; border: solid 4px #cfc5f5; border-radius: 10px; padding: 15px; text-align: center; font-family: arial;">
+
+  <a href="../index.html" rel="prev" title="Voltar para o menu">VOLTAR</a>
+
+  <h1>Sobre URLs:</h1>
+  <p>URL = <u>Uniform Resource Locator</u>, é um nome sofisticado para <em>endereço</em>. </p>
+  <p>Ela contém a informação sobre onde um arquivo está e o que o navegador deve fazer com isso, cada arquivo na internet tem uma url única.</p>
+  <p>A primeira parte da URL é o <em>esquema.</em> Ele diz ao navegador o que fazer com o arquivo ao abrir! O esquema mais comum é HTTP: Hyper Text Trasnfer Protocol e ele é usado para acessar páginas web.Os esquema são normalmente escritos em minúsculo.</p>
+  <p>A segunda parte da url é o servidor em que o arquivo está localizado, seguido do nome que leva ao arquivo. ex: http://www.site.com/tofu, as vezes uma url omite o nome de um arquivo e termina com / ex: http://site.com/tofu/ -> isso estará dizendo para abrir o arquivo index.html (padrão para abrir por primeiro) do diretório tofu!</p>
+  <p>Outros esquemas usados são: http, ftp(file transfer protocol), mailto(para enviar e-mail), file(acessar arquivos em um disco rígido local ou na mesma rede). Os esqemas são normalmente seguidos de dois pontos e duas barras! ://</p>
+  <h2>URLs Absolutas:</h2>
+  <p>"Todo o endereço de alguma casa no planeta Terra, não importando onde estivermos, aquele endereço vai ser achado em qualquer lugar que estivermos". As URLs absolutas usam todo o esquema, não importando onde o recurso estiver. Para sites em outros servidores, devemos sempre usar URLs absolutas!
+    ex: <u>http://meu-site.com/about/info/data.html</u> . A localização da URL absoluta não tem nada a ver com a sua real localização física, então independe de onde o arquivo fisicamente estiver, com a URL absoluta conseguiremos chegar até ele.
+  </p>
+  <h2>URLs Relativas:</h2>
+  <p>"Para lhe dar as direções da casa de minha vizinha, fica a tres quadras a direita". ou seja, se fosse em outra cidade, não funcionaria este endereço, então: as URLs relativas vão funcionar dependendo da localização de onde ela se origina! -> <em>Uma URL relativa descreve a localização do arquivo desejado com relação a localidade do arquivo que contém a referência da URL em si. Então podemos ter um endereço dizendo: vincule com a página xyz que está neste mesmo repositório que eu!</em>. Para URLs relativas, usamos apenas o nome do arquivo e suas extensão, assim para arquivos em sub-pastas também, referenciando usando barras. ex: <u>minha-imagem.img</u> - <u>./imagem/img2.img</u></p>
+  <p>Então dependendo do uso, há maneiras melhores de usar URLs para manter a rapidez e fluidez no site, referenciado links corretamente dependendo do uso.</p>
+  <p><u>Projetar o site em uma folha de papel é uma boa idéia para ter noção do que queremos criar!</u></p>
+  <h3>Sobre páginas home:</h3>
+  <p><em>É comum encontrarmos páginas index.html ou em casos especificos até default.html (que são considerados padrão pelos navegadores e servidores, são esses arquivos que serão lidos primeiro), em diversos diretórios (pastas), assim, se não for encontrado um index.html, o navegador pode acabar mostrando todo o conteúdo dos diretórios presentes no diretório raiz (o que as vezes não queremos que aconteça). Por isso é importante criarmos um arquivo index.html para cada diretório dentro de nosso projeto!!!</em></p>
+
+</body>
+
+</html>

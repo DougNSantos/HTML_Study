@@ -1,0 +1,110 @@
+/*as pré-definições auto, normalmente vão tentar manter o conteúdo dentro dos elementos/conteiners para não estourar o conteiner, o conteudo não vazar para fora!!!*/
+
+body {
+  margin: 0px;
+  background-image: url("./img/wolfgangotimizado.jpg");
+  font-family: Arial;
+  display: grid;
+  place-content: center;
+  padding: 0px;
+  /*grid-template-columns: auto auto auto;*/
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid seagreen;
+  margin: 5px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.nox {
+  display: grid;
+  grid-template-columns: 200px;
+  justify-content: center;
+}
+
+.ficha {
+  color: black;
+  background: #ccc;
+  display: grid;
+  justify-content: left;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 20px; /* Adiciona um espaço acima da ficha se necessário */
+  border: 1px solid seagreen;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.status {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.envolucro {
+  background: #aaa;
+  border-radius: 10px;
+  border: 1px solid seagreen;
+  display: grid;
+  justify-content: center;
+  max-width: fit-content; /*aqui diz que a largura máxima do conteiner deve ser a maxima largura dos conteudos que ele envolve!!!*/
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+}
+
+.habilidades,
+.inventario {
+  background: #ccc;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.hab,
+.equip,
+.lore {
+  background: #aaa;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.pos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center; /*há propriedades que não vão funcionar, pois a configuração não vai deixar, por exemplo: grid-template-columns: 1fr 1fr com justify-content, não vai funcionar, pois o conteudo ja esta sendo alinhado com o max de largura da pagina, por isso devemos cuidar com as configurações!!!*/
+
+  /*o justify-content - alinha pelas colunas do grid, de acordo com as divisões feitas pelo grid-template-columns:
+  o align-content - alinha pelas linhas do grid
+  já o place-content - é um atalho para as duas proriedades acima: é usar place-content: <justify><align> - se definir apenas uma propriedade, ele tenta usar para os dois a mesma configuração!*/
+}
+
+.hist {
+  background: #ccc;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+  display: grid;
+  gap: 15px;
+}

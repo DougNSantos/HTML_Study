@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../estilo/style.css" />
+  <title>conclusão de mais tags:</title>
+</head>
+
+<body style="background: #f3eae8; color: #6d5aaa; border: solid 4px #cfc5f5; border-radius: 10px; padding: 15px; text-align: center; font-family: arial;"></body>
+<div style="background: #b9fff7; border-radius: 10px;">
+
+  <a href="../index.html" rel="prev" title="Voltar para o menu">VOLTAR</a>
+  <br><br>
+
+  <h1>Aqui o Título</h1>
+
+  <section>
+    <p><em>Lembrando que o Outline da página terá como base o primeiro 'h1' definido como TÍTULO PRINCIPAL da página toda em seu Outline!!! Neste caso, o Outline desta página está usando o 'h1 Aqui o Título /h1' como título principal no Outline da página!!!</em><br>
+    <h2>Obs: mas para o título da página no Outline, o <u>'h1' deverá estar fora de qualquer outro sectioning content!!!</u></h2>
+    </p>
+  </section>
+
+  <section>
+    <p><em>Lembrando dos quatro <u>sectioning contents do HTML 5: </u></em>
+    <ul style="text-align: left;">
+      <li>header</li>
+      <li>article</li>
+      <li>aside</li>
+      <li>section</li><br>
+      <li>menções também para -> 'nav' & 'footer' & 'h1 - h6' (os cabeçalhos/títulos)</li>
+    </ul>
+    </p>
+  </section>
+
+  <section style="font-size: larger;">
+    <h2>Sobre conteudos e suas marcações:</h2>
+    <p style="color: orange;"><em>Em HTML, todo conteúdo deve estar dentro de alguma marcação, mas nem sempre é necessário usar uma tag específica para cada elemento. No entanto, o HTML tem uma estrutura que requer tags para organizar o conteúdo.<br>
+        Contudo, você pode ter texto sem marcação específica se ele estiver dentro de uma tag de bloco como 'div', por exemplo.<br>
+        Embora não haja uma marcação adicional, o conteúdo ainda precisa estar dentro de alguma tag. Portanto, não existe conteúdo "sem marcação" no sentido estrito; sempre haverá alguma estrutura que organiza esse conteúdo em HTML.</em></p><br>
+  </section>
+
+  <div>
+    <header>
+      <nav>
+        <ul style="text-align: left;"> <!--lista desordenada-->
+          <li><a href="/" style="background: white;">Então normalmente teremos marcaçoes aninhadas como estas desta página:</a></li><br>
+          <li><a href="/" style="background: white;">Um 'header' que indica que é uma parte de navegação da página e do site.</a></li><br>
+          <li><a href="/" style="background: white;">Um 'nav' dentro do 'header' para indicar que há links importantes.</a></li><br>
+          <li><a href="/" style="background: white;">Estes são apenas exemplos de links.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <p>A marcação 'li' quer dizer: <em>definir item na lista</em></p>
+    </article>
+
+    <h2>sobre 'article'</h2>
+    <p><em>A marcação 'article' é usada para definir artigos. Mas não apenas eles, mas principalmente conteúdos independetes que podem ser redistribuídos em outros sites.</em>
+      ele pode comportar diversos tipos de conteúdos e outras marcações, mas possui essa principal característica de normalmente conter conteúdos que são independentes de outros, quer diizer que podemos recortar eles e ainda assim vão estar completos em seu conteúdo!!!
+      Pensemos em article como sendo uma postagem de um blog, conteudos novos e independentes, novas notícias!<br><br>
+      Mas há outras formas de usar o 'article' até aninhado com outros, por exemplo: em comentários de usuários.
+    </p>
+
+    <h2>sobre 'section'</h2>
+    <p>O 'section' é bem semelhante com o 'article', mas seu conteúdo poderá ser mais genérico. <em>Ele representa uma parte/um documento na página ou aplicativo que é genérica.</em><br>
+      Há muitos desenvolvedores que até usam diferentes marcações em seus páginas, mesclando entre 'article' e 'section'!<br>
+      O que devemos se perguntar qual dos dois devemos usar é o seguinte: <em>O conteúdo poderá ser recortado e usado independente em outra parte? usemos <u>'article'</u>, senão usemos <u>'section'</u>. Não existe certo ou errado, vai existir boas-práticas!</em></p>
+    <h4>Obs: o 'section' não é genérico como uma 'div', ele ainda dá sentido semântico ao conteúdo nele contido!!!</h4>
+    <h4>Obs #2: É comum serem usados ('section') para separar seções dentro de outras marcações, por exemplo: 'article' e vem aninhado dentro com vários 'section' para dividir o conteúdo! Ele dará semântica aos conteúdos.</h4>
+    <br><br>
+  </div>
+
+  <p>Mais sobre outras marcações no próximo estudo --></p><br>
+
+  </body>
+
+</html>
